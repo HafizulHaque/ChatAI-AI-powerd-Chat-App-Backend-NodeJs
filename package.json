@@ -1,0 +1,26 @@
+{
+  "name": "chatai",
+  "version": "1.0.0",
+  "description": "a openai api based chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "openai",
+    "chat",
+    "application",
+    "ai"
+  ],
+  "author": "Hafizul Haque",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
